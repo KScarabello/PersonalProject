@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Racing+Sans+One');
+
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #071013;
+    color: whitesmoke; 
+    
+}
+
+.logo{
+    font-family: 'Racing Sans One';
+}
+
+.category-links ul li{
+    text-decoration: none;
+}
+

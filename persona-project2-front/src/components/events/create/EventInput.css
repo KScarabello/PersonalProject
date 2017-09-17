@@ -1,0 +1,26 @@
+.create-event-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 2px;
+    width: 80%;
+    margin: 20px;
+}
+
+.textfield-width{
+    width: 70%;
+    margin: 20px;
+}
