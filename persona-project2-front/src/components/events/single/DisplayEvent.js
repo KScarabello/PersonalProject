@@ -21,15 +21,15 @@ export default class DisplayEvent extends Component{
 
     }    
 
-    componentDidMount(){
-        axios.get('http://localhost:3001/api/event/' + )
-            .then(response => {
-                this.setState({
-                    events: response.data
-                })
+    // componentDidMount(){
+    //     axios.get('http://localhost:3001/api/event/' + )
+    //         .then(response => {
+    //             this.setState({
+    //                 events: response.data
+    //             })
             
-            })
-    }
+    //         })
+    // }
   render(){
     
     let eventInfo = this.state.events.map((e,i) => {
